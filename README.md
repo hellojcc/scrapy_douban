@@ -18,4 +18,5 @@ pymongo==3.10.1
 
 ### tips:  
 数据库认证  
-先更新pip再install其他
+先更新pip再install其他  
+csv改编码格式  
