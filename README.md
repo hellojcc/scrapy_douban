@@ -5,10 +5,11 @@
 ### 环境：  
 centos7  
 python3.6.5  
-gcc 4.8.5  
-Twisted==20.3.0  
-Scrapy==2.1.0  
-pymongo==3.10.1  
+gcc 4.8.5    
+Scrapy==2.1.0
+Twisted==20.3.0
+pymongo==3.10.1
+pip==20.1
 
 ### 启动：  
 `python main.py`  
@@ -17,6 +18,7 @@ pymongo==3.10.1
 数据库有数据，douban文件夹下生成csv文件  
 
 ### tips:  
+pip install Scrapy 可能连带着Twisted安装，就不用再pip install Twisted  
+建议先更新pip再install其他  
 数据库认证  
-先更新pip再install其他  
 csv改编码格式  
